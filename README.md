@@ -2,7 +2,7 @@
 
 An interactive game where you compete against a deep learning model to tell **real face photos** from **AI-generated faces**. Built for CS 6180 (Homework 1) with TensorFlow/Keras and Gradio, deployed on Render.
 
-**Live demo:** https://<your-service>.onrender.com
+**Live demo:** https://gradio-classifier.onrender.com
 
 > The app runs on Render's free tier, which sleeps after ~15 minutes of inactivity. The first visit may take about a minute to wake up; after that it responds instantly.
 
@@ -39,4 +39,4 @@ python app.py                                        # http://localhost:7860
 - Web Service, Python runtime, free plan
 - Build: `pip install -r requirements.txt`
 - Start: `python app.py` (binds to `0.0.0.0:$PORT`)
-- Env var: `PYTHON_VERSION=3.13.15`
+- Env var: `PYTHON_VERSION=3.13.1`
